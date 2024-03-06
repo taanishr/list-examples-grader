@@ -14,7 +14,7 @@ echo 'Finished cloning'
 
 if [[ -f student-submission/ListExamples.java ]]
 then
-    cp student-submission/listExamples.java grading-area/
+    cp student-submission/ListExamples.java grading-area/
     cp TestListExamples.java grading-area/
 else 
 	echo “Missing student-submission/ListExamples.java, did you forget the file or misname it?”
